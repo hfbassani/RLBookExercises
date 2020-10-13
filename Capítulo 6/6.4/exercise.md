@@ -1,0 +1,5 @@
+Exercise 6.4 The specific results shown in the right graph of the random walk example are dependent on the value of the step-size parameter, α. Do you think the conclusions about which algorithm is better would be a↵ected if a wider range of α values were used? Is there a different, fixed value of α at which either algorithm would have performed significantly better than shown? Why or why not?
+
+    Acredito que uma faixa de valores maior para α não mudaria o resultado de qual o melhor algoritmo em questão, dado que aperenta que quanto menor o α, menor é o erro conforme o número de episódios cresce.
+
+    Ao analisar o gráfico, é notório que para valores de α mais altos, ambos algoritmos são melhores para poucos episódios, porém, conforme a quantidade de episódios cresce, os algoritmos se tornam melhores para valores de α menores. Lembrando que, no caso em questão, MRP, o TD saiu melhor que MC.

@@ -1,0 +1,1 @@
+Reduzir significância de resultados antigos, pode dar resultados melhores. Acredito que utilizar algoritmos capazes de se adaptar melhor a mudanças do oponente, uma vez que ele pode se adaptar à maneira que você joga e mudar a distribuição de probabilidade dele baseando-se nisso.

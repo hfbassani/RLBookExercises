@@ -3,6 +3,6 @@ value function jump up for the last two rows in the rear? Why does it drop off f
 whole last row on the left? Why are the frontmost values higher in the upper diagrams
 than in the lower?
 
-The value goes up on the last two rows because these are the rows the player can win.
-It drops off on the last rows, bucause the dealer makes a draw with the player.
-The values are higher on the front of the upper diagrams, because the player has an ace, which represents 1 or 11 on his starting hand.
+O valor sobe nas últimas duas linhas porque essas são as linhas que o jogador pode vencer.
+O valor cai nas últimas linhas porque o dealer pode fazer um empate com o jogador.
+Os valores são mais altos nas fileiras da frente porque o jogador tem um ás que pode representar 1 ou 11, na sua mão inicial.

@@ -2,3 +2,4 @@ Exercise 1.1: Self-Play Suppose, instead of playing against a random opponent, t
 
 O algoritmo aprenderia com ele mesmo maneiras de vencer o jogo, através da experiência adquirida nas suas partidas. Sua política de movimento será diferente da de um humano, pois o algoritmo não teve nenhum contato(jogando contra ou por um modelo) com técnicas utilizadas por um humano, possuindo assim um maneira única de jogar, e podendo até existir momentos na partida que o algoritmo faça jogadas contraintuitivas para um humano, pois ele aprendeu que essa é a melhor jogada nessa situação para obter a vitória no final da partida.
 
+Um problema que teria de ele jogar apenas contra o mesmo jogador é que as jogadas tendem a ser semelhantes e isso pode fazer com que o aprendizado se estabilize, mas talvez o algoritmo consiga lidar um pouco com isso, uma vez que estaria jogando contra si mesmo e o algoritmo está aprendendo enquanto joga, o que possibilitaria jogadas diferentes.

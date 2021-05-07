@@ -1,3 +1,4 @@
+
 Exercise 3.1 Devise three example tasks of your own that fit into the MDP framework,
 identifying for each its states, actions, and rewards. Make the three examples as di↵erent
 from each other as possible. The framework is abstract and flexible and can be applied in

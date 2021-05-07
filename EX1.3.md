@@ -1,0 +1,3 @@
+Exercise 1.3: Greedy Play Suppose the reinforcement learning player was greedy, that is, it always played the move that brought it to the position that it rated the best. Might it learn to play better, or worse, than a nongreedy player? What problems might occur?
+
+R = Neste caso o algoritmo aprenderia com ele mesmo qual seria a melhor jogada para um determinado estado, porém poderia ocorrer um certo bias devido ao inimigo sempre repetir algum determinado passo acreditando que aquele movimento seria o melhor movimento para o estado, porém ao jogar com um ser humano o oponente poderia realizar uma jogada 'blafer' para confundir o algoritmo e assim o ser humano poderia tirar vantagem sobre o jogo.

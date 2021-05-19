@@ -11,6 +11,7 @@ Completion status:
 |   | 2: Multi-armed Bandits | 7/10   |
 |   | 3: Finite Markov Decision Processes| 14/29 |
 |   | 4: Dynamic Programming | 8/10 |
+|   | 5: Monte Carlo Methods | 8/14 |
 
 ---
 ### Contributing:

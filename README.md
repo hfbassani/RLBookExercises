@@ -12,6 +12,9 @@ Completion status:
 |   | 3: Finite Markov Decision Processes| 14/29 |
 |   | 4: Dynamic Programming | 8/10 |
 |   | 5: Monte Carlo Methods | 8/14 |
+|   | 6: Temporal-Difference Learning | 1/14 |
+|   | 7: n-step Bootstrapping | 0/10 |
+|   | 8: Planning and Learning with Tabular Methods | 4/8 |
 
 ---
 ### Contributing:

@@ -15,6 +15,7 @@ Completion status:
 |   | 6: Temporal-Difference Learning | 1/14 |
 |   | 7: n-step Bootstrapping | 0/10 |
 |   | 8: Planning and Learning with Tabular Methods | 4/8 |
+|   | 9: On-policy Prediction with Approximation | 1/8 |
 
 ---
 ### Contributing:

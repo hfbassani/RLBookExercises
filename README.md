@@ -9,3 +9,17 @@ Completion status:
 |---|------------------------|------|
 | ✅ | 1: Introduction        | 5/5    |
 |   | 2: Multi-armed Bandits | 7/10   |
+
+---
+### Contributing:
+New solutions should be submitted through pull requests, base file formats for markdown and notebooks are available at the stubs folder.
+
+Files should be placed on the proper chapter folder following the naming scheme for markdown and Jupyter notebooks.
+
+```    
+Ex_X.XX.md
+```
+
+```
+Ex_X.XX.ipynb
+```

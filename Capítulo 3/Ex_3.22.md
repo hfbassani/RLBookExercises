@@ -1,5 +1,9 @@
-### Q: Consider the continuing MDP shown to the right. The only decision to be made is that in the top state, where two actions are available, left and right. The numbers show the rewards that are received deterministically after each action. There are exactly two deterministic policies, πleft and πright. What policy is optimal if γ = 0? If γ = 0.9? If γ = 0.5?
+### *Exercise 3.22:*
 
+**Consider the continuing MDP shown to the right. The only decision to be made is that in the top state, where two actions are available, left and right. The numbers show the rewards that are received deterministically after each action. There are exactly two deterministic policies, πleft and πright. What policy is optimal if γ = 0? If γ = 0.9? If γ = 0.5?**
+
+---
+Resposta 1:
 
 ```
 Para γ = 0:

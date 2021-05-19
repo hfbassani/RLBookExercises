@@ -1,6 +1,9 @@
-### Q: The policy iteration algorithm on page 80 has a subtle bug in that it may never terminate if the policy continually switches between two or more policies that are equally good. This is okay for pedagogy, but not for actual use. Modify the pseudocode so that convergence is guaranteed.
+### *Exercise 4.4:*
 
-#### Original
+**The policy iteration algorithm on page 80 has a subtle bug in that it may never terminate if the policy continually switches between two or more policies that are equally good. This is okay for pedagogy, but not for actual use. Modify the pseudocode so that convergence is guaranteed.**
+
+---
+Resposta 1:
 
 ```
 1. Initialization
@@ -24,11 +27,12 @@
     If policy-stable, then stop and return V ≅ x* and π ≅ π*; else go to 2 
 ```
 
-
-#### Melhoria
-A melhoria abaixo segue a mesma ideia de ter as etapas de **Policy Evaluation** e **Policy Improvement**, porém há algoritmos mais otimizados, como por exemplo o **Value Iteration**.
+---
+Resposta 2:
 
 ```
+A melhoria abaixo segue a mesma ideia de ter as etapas de Policy Evaluation e Policy Improvement, porém há algoritmos mais otimizados, como por exemplo o Value Iteration.
+
 1. Initialization
     V(s) ∈ ℝ and π(s) ∈ A(s) arbitrarily for all s ∈ S
 

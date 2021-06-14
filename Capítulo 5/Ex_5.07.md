@@ -6,5 +6,7 @@
 Resposta 1:
 
 ```
-Isso acontece porque ela é tendenciosa, mesmo convertendo para zero.
+Algumas coisas precisam ser esclarecidas, primeiro é que por ser divida pelos episódios a média ordinária tende a ter uma maior variância nas informações, um dos motivos para se ter um grande valor de erro inicial, entretanto ela não é enviesada, segundo fato importante é que a média ponderada
+é enviesada pelo fator de p(t)-1 e por consequência não tem uma grande variância nos resultados, o pico no gráfico nos estágios iniciais pode ser influência do valor de G(t), que apresenta valores altos e conforme o tempo passa ele começa a ficar menor. Como os valores de cima e baixo são iguais podemos 
+cancelar esses fatores e deixar apenas o valor de G(t).
 ```

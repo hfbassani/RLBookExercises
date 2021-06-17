@@ -1,0 +1,3 @@
+Exercise 6.3 From the results shown in the left graph of the random walk example it appears that the first episode results in a change in only V (A). What does this tell you about what happened on the first episode? Why was only the estimate for this one state changed? By exactly how much was it changed?
+
+O que aconteceu foi que em um único episódio da tarefa o agente encontrou o ponto A como terminal, e logo depois atualizou sua função de valor.

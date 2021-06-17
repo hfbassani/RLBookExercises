@@ -1,0 +1,3 @@
+Exercise 5.2 Suppose every-visit MC was used instead of first-visit MC on the blackjack task. Would you expect the results to be very different? Why or why not?
+
+Utilizando every visit teriamos uma média dos valores de recompensa, o que poderia convergir mais rápido, mas nesse caso específico o fator de desconto é 1, o que torna a convergência igual aos outros métodos de calcular a recompensa.

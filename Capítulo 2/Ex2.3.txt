@@ -1,0 +1,8 @@
+Exercise 2.3 In comparison shown in Figure 2.2, which method will
+performed best in the long run in terms od cumulative reward and
+probability of selecting the best action? How much better will it be? 
+Express your answer quantitatively.
+
+De forma simplificada, temos que ε = 0.01 terá performace melhor ao longo
+do tempo em relação a recompensa acumulada, pelo simples fato de que sera
+feita exploitation em 99% das vezes na greedy option, gerando uma recompensa acumulada média de 0.99 * (média da recompensa da melhor opção), enquanto que com ε = 0.1, teremos exploitation da greedy action em 90% das iterações, gerando uma recompensa acumulada média de 0.9 * (recompensa média da melhor opção), demosntrando que um ε menor terá melhor performace ao longo do tempo levando em consideração apenas a recompensa acumulada.

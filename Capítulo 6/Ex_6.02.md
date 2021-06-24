@@ -8,3 +8,10 @@ Resposta 1:
 ```
 O método TD pode usar predições do inicio ao fim de experiências passadas. Já o método MC precisa criar predições. Dessa forma, é provável que as predições de MC sejam diferentes da realidade e por isso, o método TD é melhor nesse caso
 ```
+
+---
+Resposta 2:
+
+```
+Sim. Em um caso de troca de um braço mecânico onde já havia tido um treinamento por reforço já computado as políticas e valores. Por se tratar de um novo braço, então o TD estimaria de acordo com o anterior, e recalculada com base nas movimentações de treinamento e execução. No caso do monte carlo tudo isto deveria ser feito do início ao fim. Sim, de fato poderia ocorrer no cenário original.
+```

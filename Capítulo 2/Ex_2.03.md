@@ -24,3 +24,11 @@ Resposta 2:
 ```
 Quando o "e-greedy" é médio o algoritmo pode escolher uma maquina muito ruim e por azar a recompensa dela for muito alta, dessa forma iria demorar mais para o algoritmo perceber que aquela maquina é de fato ruim. Com "e-greedy" é muito pequeno acontece algo pior pois com o raciocinio de sempre escolher a melhor ação o algoritmo pode achar uma maquina que lhe dar 3 como recompensa enquanto que a maioria das outras lhe dão -1. Porem pode existir uma maquina que lhe der 10 como média. A grande questão é escolher o valor certo da explotação/exploração
 ```
+
+
+---
+Resposta 3:
+
+```
+Sim, o de e = 0.01 pois mesmo que lentamente este explora mais as ações disponíveis e desta forma encontrando melhores ações a longo prazo. Seu desempenho em determinado estado de tempo converge a um melhor que o de 0.1 e o de ação gananciosa (0).
+```

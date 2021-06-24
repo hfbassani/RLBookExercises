@@ -15,3 +15,11 @@ Resposta 2:
 ```
 Neste caso os algoritmos iriam valorizar os estados de maneiras diferentes. Imagine o jogo Tic Toc onde o jogador A sempre começa jogando. Dessa forma o Jogador B nunca viu o tabuleiro vazio e portando nao saberia qual posição escolher quando visse pela primeria vez o tabuleiro vazio. Os jogadores apesar de usarem o mesmo algoritmo de aprendizagem por reforço poderiam aprender politicas diferentes pois cada jogador teria suas próprias experiências.
 ```
+
+
+---
+Resposta 3:
+
+```
+Sem a interação do agente com jogadas de oponentes humanos, o agente iria aprender a modificar e alcançar o objetivo (Vitória) por meio de jogadas próprias. Sendo assim, o aprendizado estaria enviesado a políticas e escolhas de ações restritas ao comportamento do agente com o ambiente modificado pelo próprio agente. Portanto, as ações estando ligadas a ele mesmo iriam por muitas vezes parecer sem sentido. Desta forma, fica claro que  suas políticas de escolhas são diferentes de uma escolha humana.
+```

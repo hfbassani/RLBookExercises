@@ -6,5 +6,5 @@
 Resposta 1:
 
 ```
-As diferenças que seriam encontradas nos valores de n e α são menores em um random walk com 5 estados que com 19. O random walk com 5 estados só tem valores menor com n<4. Se for mudado a recompensa do lado esquerdo para -1 e o valor inicial permanecer o mesmo então o valor inicial será mais otimista.
+As diferenças que seriam encontradas nos valores de n e α são menores em um random walk com 5 estados que com 19. Com um n<4 o random walk com 5 steps pode conseguir valores melhores. Se for mudado a recompensa do lado esquerdo para -1 e o valor inicial permanecer o mesmo então o valor inicial será mais otimista.
 ```

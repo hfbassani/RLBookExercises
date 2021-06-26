@@ -1,0 +1,3 @@
+Exercise 8.3 Careful inspection of Figure 8.5 reveals that the di↵erence between Dyna-Q+ and Dyna-Q narrowed slightly over the first part of the experiment. What is the reason for this?
+
+O Dyna-Q+ encontra um caminho de maineira mais rápida, mas não tão devagar o Dyna-Q também encontra, essa característica torna o custo de exploração do Dyna-Q+ maior que o do Dyna-Q.

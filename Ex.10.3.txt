@@ -1,0 +1,3 @@
+Exercise 10.3 Why do the results shown in Figure 10.4 have higher standard errors at large n than at small n?
+
+Com um n pequeno estaremos fazendo mais bootstraping em um episódio e consequentemente tendo cada vez mais uma melhor aproximação da função.

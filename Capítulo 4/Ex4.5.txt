@@ -1,0 +1,8 @@
+Exercise 4.5 How would policy iteration be defined for action values? Give a complete algorithm for computing q⇤, analogous to that on page 80 for computing v⇤. Please pay special attention to this exercise, because the ideas involved will be used throughout the rest of the book.
+
+No passo 2 - Policy Evaluation fariamos a alteração para:
+
+q(s,a) <- Q(s,a)
+Q(s, a) <- ∑p(s',r|s,a)[r+γ∑π(a'|s')Q(s',a')}
+	   s′,r		   a'
+Δ ← max a[Δ,|q(s,a)−Q(s,a)|]

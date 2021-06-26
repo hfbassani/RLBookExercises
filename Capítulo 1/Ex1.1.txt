@@ -1,0 +1,11 @@
+Exercise 1.1: Self-Play  Suppose, instead of playing against a
+random opponent, the reinforcement learning algoritm described
+above played against itself, with both sides learning. What do
+you think would happen in this case? Would it learn a different
+policy for selecting moves?
+
+O agente continuará aprendendo e se aprimorando na realização da
+tarefa mesmo jogando contra si, de forma que ao jogar como seu próprio
+oponente o agente tende a melhorar o ambiente para si e piorar
+para o adversário, que é ele mesmo, tendo uma visão de diferentes
+configurações do ambiente.

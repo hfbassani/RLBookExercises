@@ -1,0 +1,3 @@
+Exercise 2.25 Give an equation for v* in terms of q*
+
+v*(s)= max q*(s,a)

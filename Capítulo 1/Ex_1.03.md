@@ -27,3 +27,8 @@ Resposta 3:
 ```
 Neste caso o algoritmo aprenderia com ele mesmo qual seria a melhor jogada para um determinado estado, porém poderia ocorrer um certo bias devido ao inimigo sempre repetir algum determinado passo acreditando que aquele movimento seria o melhor movimento para o estado, porém ao jogar com um ser humano o oponente poderia realizar uma jogada 'blafer' para confundir o algoritmo e assim o ser humano poderia tirar vantagem sobre o jogo.
 ```
+
+---
+Resposta 4:
+
+As recompensas obtidas dessas seriam subótimas em relação à uma política $\varepsilon-greedy$, por exemplo. Dado que a ação gulosa escolhida veio necessariamente de um conhecimento anterior que pode estar limitado ou viesado em relação ao problema atual, disperdiçando a oportunidade então de explorar novas ações que podem ser melhores que a ação gulosa atual.

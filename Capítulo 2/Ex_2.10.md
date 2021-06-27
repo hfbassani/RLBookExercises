@@ -18,3 +18,25 @@ No segundo caso é informado previamente o caso a ser enfrentado, portanto nós 
 
 0.2 * 0.5 + 0.9 * 0.5 = 0.55
 ```
+
+Resposta 2:
+
+```
+Sem o conhecimento do caso em que se encontra, podemos calcular os valores esperados para as ações 1 e 2 como:
+- E[a=1] = 0,1*0,5 + 0,9*0,5 = 0,5
+- E[a=2] = 0,2*0,5 + 0,8*0,5 = 0,5
+
+Assim, o melhor comportamento a se adotar, neste caso, seria escolher as ações aleatoriamente, pois ambas devem convergir para obter a mesma qualidade Qt(a)
+
+Já no caso em que se tem conhecimento do caso atual (A ou B), pode-se considerar um valor esperado para cada situação, ou seja:
+- E[a=1|s=A] = 0,1
+- E[a=2|s=A] = 0,2  =>  E[s=A] = P(a=2|s=A)*0,2+P(a=1|s=A)*0,1  =>  E[s=A] é maximizado quando o agente opta sempre pela ação 2
+- E[a=1|s=B] = 0,9
+- E[a=2|s=B] = 0,8  =>  Da mesma forma, E[s=B] é maximizado quando o agente opta sempre pela opção 1
+
+Assim, E[a|s] = 0,5*(P(a=2|s=A)*0,2+P(a=1|s=A)*0,1) + 0,5*(P(a=1|s=B)*0,9+P(a=2|s=B)*0,8) = 0,5*0,2 + 0,5*0,9 = 0,55
+
+Tendo conhecimento do seu estado atual, o agente pode reconhecer os valores de suas ações nos diferentes estados e buscar aquelas que dão um maior retorno.
+
+
+```

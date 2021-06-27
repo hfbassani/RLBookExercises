@@ -11,5 +11,16 @@ Em um jogo de Xadrez, a próxima ação depende apenas da disposição das peça
 
 * Exemplo 2:
 
+Realização de ads/propaganda
+Estado: O estado é o historico de navegação/compra de um determinado usuário
+Ações: Dado uma pool de anuncios selecionar oq mostrar ao usuário
+Recompensa: Venda de produtos/cliques(podendo não ser instantaneo)
+
 * Exemplo 3:
+
+Controle de plantação:
+
+Estado: temperatura, umidade
+Ações: Aguar plantas/adição de inseticidas
+Recompensa: qualidade final da dos frutos
 ```

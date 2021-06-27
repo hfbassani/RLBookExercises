@@ -15,3 +15,9 @@ Resposta 2:
 ```
 Neste caso os algoritmos iriam valorizar os estados de maneiras diferentes. Imagine o jogo Tic Toc onde o jogador A sempre começa jogando. Dessa forma o Jogador B nunca viu o tabuleiro vazio e portando nao saberia qual posição escolher quando visse pela primeria vez o tabuleiro vazio. Os jogadores apesar de usarem o mesmo algoritmo de aprendizagem por reforço poderiam aprender politicas diferentes pois cada jogador teria suas próprias experiências.
 ```
+
+Resposta #:
+
+```
+Considerando que os dois agentes são seperados(estão aprendendo uma politica diferente) e que não há diferença entre empate e derrota, os agentes devem convergir para uma politica que tenta sempre ganhar, mas após isso pode ocorrer o caso de algum de um dos agentes explorar esses estados de que o jogo está empatado(Pois o agente não se importa em perder ou empatar). Em tão a politica para esses estados de empate podem ser diferentes.
+```

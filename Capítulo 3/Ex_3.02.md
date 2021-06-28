@@ -6,12 +6,10 @@
 Resposta 1:
 
 ```
-Um caso onde eu acredito que não seja adequado a utilização o MDP é quando nos deparamos com um conjunto de estados e/ou conjunto de ações infinitas, como também se as informações da sequência estiverem incompleta ou até mesmo indisponíveis, outro caso é quando os estados são difíceis de compreender ou não é possivel representar-los numericamente.
+Em Aprendizagem por Reforço (AR)  o problema a ser resolvido é descrito pelo Processo de Decisão de Markov - MDP. Temos que se um problema é bem descrito como MDP, então Aprendizagem por Reforço é uma boa abordagem a se seguir, de fato isso não significa que o modelo necessite ter todos estados de probabilidades 
+descritos, mas apenas que eles sejam feitos ou descobertos. Caso o problema em questão não tenha um mapeamento ou se adeque ao MDP, isso indica que não há possibilidade de resultados úteis com AR. Uma das chaves para saber se AR funcionará de forma satisfatória é através da propriedade Markoviana, que o valor do estado atual
+é suficiente para ajustar as próximas transições subsequentes com as devidas recompensas pelas ações tomadas. Esse processo pode ter uma falha quando o sistema de recompensas é violado e isso pode acontecer quando o sistema em questão foca em mais de um objetivo tendo que realizar tradeoffs para maximizar as recompensas, considerando
+que sistemas de AR consideram focar apenas em um único objetivo. 
 ```
 
----
-Resposta 2:
 
-```
-MDP não é adequado em diversos cenários como por exemplo jogo de Xadrez onde o oponente apresenta centenas de jogadas com probabilidade não definida. Jogo de futebol de robôs apresentam diversos estados e probabilidade nao definida quando tomamos uma determinada ação.
-```

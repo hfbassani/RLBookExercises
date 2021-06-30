@@ -27,3 +27,11 @@ Resposta 3:
 ```
 Neste caso o algoritmo aprenderia com ele mesmo qual seria a melhor jogada para um determinado estado, porém poderia ocorrer um certo bias devido ao inimigo sempre repetir algum determinado passo acreditando que aquele movimento seria o melhor movimento para o estado, porém ao jogar com um ser humano o oponente poderia realizar uma jogada 'blafer' para confundir o algoritmo e assim o ser humano poderia tirar vantagem sobre o jogo.
 ```
+
+---
+Resposta 4:
+
+```
+O que aconteceria com certeza é que a exploração do agente "greedy" será extremamente afetada, uma vez que este só conseguirá fazer jogadas "previsiveis" vamos dizer assim, visto que são as melhores. Porém, no pior dos casos o jogo terminará em um empate. O problema maior surge (isso já foi dito nas respostas anteriores) quando o conhecimento é enviesado pelo inimigo, forçando o agente a aprender apenas alguns "caminhos", o que o impedirá de tomar as decisões corretas em jogos posteriores. Conclusão, ele aprenderá pior.
+```
+

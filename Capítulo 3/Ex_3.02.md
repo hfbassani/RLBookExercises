@@ -15,3 +15,10 @@ Resposta 2:
 ```
 MDP não é adequado em diversos cenários como por exemplo jogo de Xadrez onde o oponente apresenta centenas de jogadas com probabilidade não definida. Jogo de futebol de robôs apresentam diversos estados e probabilidade nao definida quando tomamos uma determinada ação.
 ```
+
+---
+Resposta 3:
+
+```
+Qualquer cenário que não haja o acesso a todas as probabilidades de transições ou que o ambiente não seja estacionário (ou seja, mude ao longo da execução), não pode ser representado pelos MDPs. Um exemplo claro é um cenário com multiplos agentes, cada um interage e "modifica" o ambiente, tornando-o não estacionário, o que muda as probabilidades de forma imprevisivel.
+```

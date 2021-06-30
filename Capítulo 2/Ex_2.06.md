@@ -10,3 +10,10 @@ O método otimista tem ou pode ter picos na fase inicial porque o agente busca u
 Ou seja, a tendência é que ele busque ações que possam ter boas recompensas imediatas 
 em vez de explorar várias ações diferentes procurando formar uma "opinião" sobre determinada ação.
 ```
+
+---
+Resposta 2:
+
+```
+Por ter um inicio "otimista" todas as ações tem recompensas igualmente boas (pelo menos no caso da figura 2.3), o que significa que o agente vai explorar todas elas de forma igualitária pelo menos uma vez (a ideia é justamente incentivar a exploração), e isso vai acontecer justamente no inicio, logo, o agente vai escolher alguma ação que não leve a uma boa recompensa final (uma ação não otima)o que vai causar aqueles "spikes" no gráfico, porém, eventualmente, ele vai voltar a convergir para o ótimo.
+```

@@ -1,4 +1,4 @@
-### *Exercise 8.3:*
+### *Exercise 8.5:*
 
 **How might the tabular Dyna-Q algorithm shown on page 164 be modified to handle stochastic environments? How might this modification perform poorly on changing environments such as considered in this section? How could the algorithm be modified to handle stochastic environments and changing environments?**
 
